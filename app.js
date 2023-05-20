@@ -97,6 +97,7 @@ app.get('/update/:id', (req, res) => {
 })
 
     //Delete from table 
+    //New del comment
     app.get('/delete/:id', (req, res) => {
         let sql = `DELETE from users  where id = ${req.params.id}`;
         let q = db.query(sql, (err, results) => {
