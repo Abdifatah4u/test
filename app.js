@@ -45,7 +45,7 @@ app.get('/createtb', (req, res) => {
 //Insert into table
 app.get('/insert', (req, res) => {
     let sql = 'INSERT INTO `users` set ?';
-    let post = {id: 'null',username: 1122, password: 4042, date: "2023-05-20"};
+    let post = {id: 'null',username: 55, password: 666, date: "2023-05-20"};
     // db.query(sql, (err, result) => {
     //     if(err) throw err;
     //     console.log(result)
